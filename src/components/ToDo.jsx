@@ -1,6 +1,7 @@
 import React from 'react'
+import { useState } from 'react';
 
-export const ToDo = ({toDos}) => {
+const ToDo = ({ toDos }) => {
 
     const [isUpdate, setUpdate] = useState(false);
     const handleDelete = () => {
@@ -29,3 +30,5 @@ export const ToDo = ({toDos}) => {
     </section>
   )
 }
+
+export default ToDo

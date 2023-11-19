@@ -2,7 +2,7 @@ import React from 'react'
 import { useState } from 'react';
 import { v4 as uuidv4 } from 'uuid';
 
-export const ToDoForm = ({ toDos, setToDos }) => {
+ const ToDoForm = ({ toDos, setToDos }) => {
     const [title, setTitle] = useState('');
     const handleSubmit = e => {
         e.preventDefault();
@@ -29,3 +29,5 @@ export const ToDoForm = ({ toDos, setToDos }) => {
     </form>
   )
 }
+
+export default ToDoForm
