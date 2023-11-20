@@ -34,7 +34,7 @@ export default function NavBar() {
                 <div className="flex flex-shrink-0 items-center">
                   <img
                     className="h-8 w-auto"
-                    src="src/assets/logo-to-do.png"
+                    src="./assets/logo-to-do.png"
                     alt="To-do list"
                   />
                 </div>
